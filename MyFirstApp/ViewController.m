@@ -44,7 +44,7 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.view endEditing:YES];
+    [self.view endEditing:YES]; //makes it so if you touch the view, the keyboard can dismiss
 }
 
 @end
