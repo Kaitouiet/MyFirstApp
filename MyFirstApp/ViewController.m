@@ -25,7 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.userName = @"kiet";
     self.passWord = @"thisisaverysimpleapp";
-    self.passText.secureTextEntry = YES;
+    self.passText.secureTextEntry = YES; //dats the thing to cover the pass duh
 }
 
 - (IBAction)loginWasPressed:(id)sender {
